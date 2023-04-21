@@ -16,7 +16,10 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Laman Kreasi'),
+    'version' => env('APP_VERSION', '1.0'),
+    'developer' => env('APP_DEVELOPER', 'Laman Kreasi'),
+
 
     /*
     |--------------------------------------------------------------------------
@@ -70,7 +73,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('TIME_ZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------
