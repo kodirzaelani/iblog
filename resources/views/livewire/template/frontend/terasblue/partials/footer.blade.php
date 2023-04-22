@@ -1,45 +1,86 @@
 <div>
-    <footer>
-        <div class="container-fluid" style="background: white;">
-            <div class="row p-4">
-                <div class="col-md-4">
-                    <h5>TENTANG</h5>
-                    <hr>
-                    <p>
-                        This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll,
-                        this navbar remains in its original position.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h5>TAGS</h5>
-                    <hr>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">ISLAM</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">BUDAYA</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">OSIS</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">KEGIATAN</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">KERJA BAKTI</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">PENGUMUMAN</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">INFO</button>
-                    <button class="btn btn-sm btn-outline-secondary mb-2">PRAMUKA</button>
-                </div>
-                <div class="col-md-4">
-                    <h5>KONTAK</h5>
-                    <hr>
-                    <p>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> This example is a quick exercise to
-                        illustrate how the top-aligned navbar works
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
 
-                        <i class="fas fa-phone"></i> +62821-5988-8845
-                    </p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <h3>Laman Kreasi</h3>
+                            <p>
+                                A108 Adam Street <br>
+                                NY 535022, USA<br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-dark">
-            <div class="row p-3">
-                <div class="text-center text-white font-weight-bold">
-                    Copyright © 2023 LAMAN KREASI. All rights reserved.
+
+        <div class="footer-legal text-center">
+            <div
+                class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                    <div class="copyright">
+                        &copy; 2023 <strong><span>Laman Kreasi</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        <!-- All the links in the footer should remain intact. -->
+                        <!-- You can delete the links only if you purchased the pro version. -->
+                        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
                 </div>
+
+                <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+
             </div>
         </div>
-    </footer>
+
+    </footer><!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 </div>

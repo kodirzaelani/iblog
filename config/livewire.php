@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'layout' => 'template.frontend.terasblue.layouts.tbapp',
+    'layout' => 'template.frontend.terasblue.layouts.app',
 
     /*
     |--------------------------------------------------------------------------
