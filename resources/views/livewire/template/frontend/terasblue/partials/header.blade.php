@@ -3,7 +3,7 @@
     <header id="header" class="header fixed-top bg-light" data-scrollto-offset="0">
         <div class="container-fluid d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+            <a href="{{ route('root') }}" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1>HeroBiz<span>.</span></h1>
@@ -76,10 +76,10 @@
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
             </nav><!-- .navbar -->
             @guest
-                <a class="btn btn-primary btn-sm scrollto" href="/login"><i
+                <a class="btn btn-primary btn-sm d-xl-block d-lg-block d-md-block d-none" href="/login"><i
                         class="bi bi-box-arrow-in-right fw-bold pe-1"></i></a>
             @else
-                <a class="btn btn-primary btn-sm scrollto" href="Lo">Dashborad</a>
+                <a class="btn btn-primary btn-sm d-xl-block d-lg-block d-md-block d-none" href="Lo">Dashborad</a>
             @endguest
 
         </div>
