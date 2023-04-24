@@ -1,4 +1,5 @@
 <div>
+    {{-- mainpost --}}
     <div class="row">
 
         <!-- berita section -->
@@ -176,8 +177,6 @@
                 </div>
             </div>
         </div>
-
         <!-- end video section -->
-
     </div>
 </div>
