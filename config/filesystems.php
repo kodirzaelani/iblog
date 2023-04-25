@@ -30,6 +30,13 @@ return [
 
     'disks' => [
 
+        // images folder in public path
+        'images' => [
+            'driver' => 'local',
+            'root' => public_path('images'),
+            'url' => env('APP_URL') . '/images',
+        ],
+
         'local' => [
             'driver' => 'local',
             'root' => public_path('uploads'),
