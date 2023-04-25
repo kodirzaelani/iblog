@@ -3,7 +3,7 @@
     {{-- @livewire('template.frontend.terasblue.partials.slider') --}}
 
     <main>
-        <section class="bg-section pt-5">
+        <section class="bg-light pt-5 blog">
             <div class="container-fluid mt-3 mb-5">
                 <div class="row">
                     <div class="col-md-8">

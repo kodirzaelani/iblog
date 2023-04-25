@@ -12,17 +12,9 @@
             <nav id="navbar" class="navbar">
                 <ul>
 
-                    <li class="dropdown"><a href="#"><span>Home</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="index.html" class="active">Home 1 - index.html</a></li>
-                            <li><a href="index-2.html">Home 2 - index-2.html</a></li>
-                            <li><a href="index-3.html">Home 3 - index-3.html</a></li>
-                            <li><a href="index-4.html">Home 4 - index-4.html</a></li>
-                        </ul>
-                    </li>
+                    <li class="dropdown"><a href="{{ route('root') }}"><span>Home</span> </a></li>
 
-                    <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('frontend.page.detail') }}">About</a></li>
                     <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
@@ -71,15 +63,15 @@
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('frontend.contact.detail') }}">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
             </nav><!-- .navbar -->
             @guest
-                <a class="btn btn-primary btn-sm d-xl-block d-lg-block d-md-block d-none" href="/login"><i
-                        class="bi bi-box-arrow-in-right fw-bold pe-1"></i></a>
+                <a class="btn-getstarted scrollto d-xl-block d-lg-block d-md-block d-none" href="/login"><i
+                        class="bi bi-box-arrow-in-right fw-bold pe-1"></i> Login</a>
             @else
-                <a class="btn btn-primary btn-sm d-xl-block d-lg-block d-md-block d-none" href="Lo">Dashborad</a>
+                <a class="btn-get-started d-xl-block d-lg-block d-md-block d-none" href="Lo">Dashborad</a>
             @endguest
 
         </div>
