@@ -15,14 +15,14 @@ class Homeindex extends Component
 {
     public function render()
     {
-        return view('livewire.template.backend.nusantara.main.homeindex',[
-            'pages'      => Page::published()->get(),
+        return view('livewire.template.backend.nusantara.main.homeindex', [
+            // 'pages'      => Page::published()->get(),
             'posts'      => Post::published()->get(),
-            'downloads'  => Download::published()->get(),
-            'videos'     => Video::published()->take(3)->get(),
-            'albums'     => Album::published()->take(3)->get(),
-            'greetings'     => Greeting::published()->take(3)->get(),
-            'pengajians'     => Pengajian::published()->take(3)->get(),
+            // 'downloads'  => Download::published()->get(),
+            // 'videos'     => Video::published()->take(3)->get(),
+            // 'albums'     => Album::published()->take(3)->get(),
+            // 'greetings'     => Greeting::published()->take(3)->get(),
+            // 'pengajians'     => Pengajian::published()->take(3)->get(),
         ]);
     }
 }

@@ -64,14 +64,34 @@
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="{{ route('frontend.contact.detail') }}">Contact</a></li>
+                    @auth
+                        @php
+                            $currentUser = Auth::user();
+                        @endphp
+                        <li class="dropdown"><a href="#"><span><i class="bi bi-person-circle fs-5"></i>
+                                    {{ $currentUser->name }}</span> <i
+                                    class="bi bi-chevron-down dropdown-indicator"></i></a>
+                            <ul>
+                                <li><a href="{{ route('backend.dashboard') }}" target="_blank">Dashboard</a></li>
+                                <li>
+                                    <a href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                    @endauth
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
             </nav><!-- .navbar -->
             @guest
-                <a class="btn-getstarted scrollto d-xl-block d-lg-block d-md-block d-none" href="/login"><i
-                        class="bi bi-box-arrow-in-right fw-bold pe-1"></i> Login</a>
-            @else
-                <a class="btn-get-started d-xl-block d-lg-block d-md-block d-none" href="Lo">Dashborad</a>
+                <a class="btn-getstarted scrollto d-xl-block d-lg-block d-md-block d-none" href="/login">
+                    <i class="bi bi-box-arrow-in-right fw-bold pe-1"></i> Login</a>
             @endguest
 
         </div>
