@@ -3,161 +3,166 @@ return [
     'image' => [
         'directoryPosts' => 'uploads/images/posts/',
         'thumbnailpost' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryCategorypost' => 'uploads/images/postcategory/',
         'thumbnailpostcategory' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
 
         'directoryPengajiancategory' => 'uploads/images/pengajiancategory/',
         'thumbnailpengajiancategory' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
+        ],
+        'directoryTestimonial' => 'uploads/images/testimonial/',
+        'thumbnailtestimonial' => [
+            'width' => 200,
+            'height' => 300
         ],
         'directoryPengajian' => 'uploads/images/pengajian/',
         'thumbnailpengajian' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directorySubCategorypost' => 'uploads/images/postsubcategory/',
         'thumbnailpostsubcategory' => [
-            'width' => 150,
-            'height' => 70
+            'width' => 300,
+            'height' => 200
         ],
         'directoryLiteracy' => 'uploads/images/literacy/',
         'thumbnailliteracy' => [
-            'width' => 100,
-            'height' => 150
+            'width' => 200,
+            'height' => 400
         ],
         'directoryLiteracycategory' => 'uploads/images/literacycategory/',
         'thumbnailliteracy' => [
-            'width' => 100,
-            'height' => 150
+            'width' => 200,
+            'height' => 300
         ],
         'directoryLiteracysubcategory' => 'uploads/images/literacysubcategory/',
         'thumbnailliteracy' => [
-            'width' => 100,
-            'height' => 150
+            'width' => 200,
+            'height' => 300
         ],
         'directorySetarticle' => 'uploads/images/setarticle/',
         'thumbnailsetarticle' => [
-            'width' => 150,
-            'height' => 100
+            'width' => 300,
+            'height' => 200
         ],
         'directoryPages' => 'uploads/images/pages/',
         'thumbnailpage' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryGreetings' => 'uploads/images/greetings/',
         'thumbnailgreeting' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryAdvertisements' => 'uploads/images/advertisements/',
         'thumbnailadvertisement' => [
             'width' => 200,
-            'height' => 150
+            'height' => 300
         ],
         'directorySliders' => 'uploads/images/sliders/',
         'thumbnailslider' => [
             'width' => 300,
-            'height' => 100
+            'height' => 200
         ],
         'directoryAlbums' => 'uploads/images/albums/',
         'thumbnailalbum' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryVideocategories' => 'uploads/images/videocategories/',
         'thumbnailcategoryvideo' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryVideos' => 'uploads/images/videos/',
         'thumbnailvideo' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryVideocategories' => 'uploads/images/videocategories/',
         'thumbnailvideocategories' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryCourses' => 'uploads/images/courses/',
         'thumbnailcourse' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryScreenshoot' => 'uploads/images/screenshoots/',
         'thumbnailscreenshoot' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryTools' => 'uploads/images/tools/',
         'thumbnailtool' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directorySections' => 'uploads/images/sections/',
         'thumbnailsection' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryAgenda' => 'uploads/images/agenda/',
         'thumbnailagenda' => [
-            'width' => 250,
-            'height' => 170
+            'width' => 300,
+            'height' => 200
         ],
         'directoryWidget' => 'uploads/images/widget/',
         'thumbnailwidget' => [
             'width' => 200,
-            'height' => 100
+            'height' => 200
         ],
         'directoryTamu' => 'uploads/images/visitor/',
-            'thumbnailtamu' => [
-                'width' => 200,
-                'height' => 150
+        'thumbnailtamu' => [
+            'width' => 200,
+            'height' => 300
         ],
         'directoryProsesTamu' => 'uploads/images/prosesvisitor/',
-            'thumbnailtamu' => [
-                'width' => 200,
-                'height' => 150
+        'thumbnailtamu' => [
+            'width' => 200,
+            'height' => 300
         ],
         'directoryFoto' => 'uploads/images/fotos/',
-            'thumbnailfoto' => [
-                'width' => 250,
-                'height' => 170
-            ],
-        'directoryUsers' => 'uploads/images/users/',
-            'thumbnailuser' => [
-                'width' => 250,
-                'height' => 170
-            ],
-        'directoryDownloads' => 'uploads/downloads/files/',
-            'thumbnailuser' => [
-                'width' => 250,
-                'height' => 170
-            ],
-        'directoryLogo' => 'uploads/images/logo/',
-            'thumbnaillogo' => [
-                'width' => 250,
-                'height' => 250
-            ],
-            'thumbnailfavicon' => [
-                'width' => 16,
-                'height' => 16
-            ]
+        'thumbnailfoto' => [
+            'width' => 300,
+            'height' => 200
         ],
-        'default_mastertag' => 1,
-        'default_masterpostcategory' => 1,
-        'default_masterpostsubcategory' => 1,
-        'default_masterpagecategory' => 1,
-        'default_masterliterasicategory' => 1,
-        'default_masterliterasisubcategory' => 1,
-        'default_masteruser' => 1,
-        'masterpengajiancategory' => 1,
-    ];
+        'directoryUsers' => 'uploads/images/users/',
+        'thumbnailuser' => [
+            'width' => 300,
+            'height' => 200
+        ],
+        'directoryDownloads' => 'uploads/downloads/files/',
+        'thumbnailuser' => [
+            'width' => 300,
+            'height' => 200
+        ],
+        'directoryLogo' => 'uploads/images/logo/',
+        'thumbnaillogo' => [
+            'width' => 300,
+            'height' => 300
+        ],
+        'thumbnailfavicon' => [
+            'width' => 16,
+            'height' => 16
+        ]
+    ],
+    'default_mastertag' => 1,
+    'default_masterpostcategory' => 1,
+    'default_masterpostsubcategory' => 1,
+    'default_masterpagecategory' => 1,
+    'default_masterliterasicategory' => 1,
+    'default_masterliterasisubcategory' => 1,
+    'default_masteruser' => 1,
+    'masterpengajiancategory' => 1,
+];

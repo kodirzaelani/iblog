@@ -16,8 +16,8 @@ Route::get('/postall', Fpostall::class)->name('frontend.post.all');
 Route::get('/pagedetail', Fpagedetail::class)->name('frontend.page.detail');
 Route::get('/contact', Maincontact::class)->name('frontend.contact.detail');
 
-Auth::routes(['register' => false]);
-
+// Auth::routes(['register' => false]);
+Auth::routes();
 Route::middleware(['auth', 'web'])->group(function () {
 
     // Dashboard

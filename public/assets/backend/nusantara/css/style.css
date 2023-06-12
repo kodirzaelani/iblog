@@ -78,11 +78,9 @@ Waves
 /*Body*/
 @import url(color_theme.css);
 @import url(style_rtl.css);
-@import url(../assets/icons/font-awesome/css/all.css);
-@import url(../assets/icons/flag-icon-css/css/flag-icon.css);
-@import url(../assets/icons/weather-icons/css/weather-icons.min.css);
-@import url(../assets/icons/icomoon/style.css);
-@import url(../assets/vendor_components/animate/animate.css);
+@import url(../icons/font-awesome/css/font-awesome.css);
+@import url(../icons/flag-icon-css/css/flag-icon.css);
+@import url(../vendor_components/animate/animate.css);
 html {
   height: 100%;
   font-size: 14px; }
@@ -339,9 +337,6 @@ img {
 
 .l-h-80 {
   line-height: 5.7142857143rem!important; }
-
-.l-h-90 {
-  line-height: 6.182857rem!important; }
 
 .l-h-100 {
   line-height: 7.1428571429rem!important; }
@@ -21477,7 +21472,7 @@ body .main-header .navbar .nav > li.search-box > a:hover, body .main-header .nav
   position: relative;
   width: 100%;
   padding: 10px 0 10px;
-  background-image: url(../images/user-info.jpg); }
+  background-image: url(../../images/user-info.jpg); }
   .user-panel:before, .user-panel:after {
     content: " ";
     display: table; }
