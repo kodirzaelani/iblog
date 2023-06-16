@@ -76,7 +76,6 @@
                         class="flex-shrink-0">
                     <div>
                         <h4><a href="blog-post.html">Nihil blanditiis at in nihil autem</a></h4>
-                        <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                 </div><!-- End recent post item-->
 
@@ -85,7 +84,6 @@
                         class="flex-shrink-0">
                     <div>
                         <h4><a href="blog-post.html">Quidem autem et impedit</a></h4>
-                        <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                 </div><!-- End recent post item-->
 
@@ -95,7 +93,6 @@
                     <div>
                         <h4><a href="blog-post.html">Id quia et et ut maxime similique occaecati
                                 ut</a></h4>
-                        <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                 </div><!-- End recent post item-->
 
@@ -104,7 +101,6 @@
                         class="flex-shrink-0">
                     <div>
                         <h4><a href="blog-post.html">Laborum corporis quo dara net para</a></h4>
-                        <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                 </div><!-- End recent post item-->
 
@@ -114,7 +110,6 @@
                     <div>
                         <h4><a href="blog-post.html">Et dolores corrupti quae illo quod dolor</a>
                         </h4>
-                        <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                 </div><!-- End recent post item-->
 
